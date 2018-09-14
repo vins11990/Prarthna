@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2930E8F7214AF4A600370D77 /* StotraData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930E8F6214AF4A600370D77 /* StotraData.swift */; };
+		2930E8FB214B1E9E00370D77 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930E8FA214B1E9E00370D77 /* DetailViewController.swift */; };
 		29C23C7E213465EC00D1ED4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C23C7D213465EC00D1ED4C /* AppDelegate.swift */; };
-		29C23C80213465EC00D1ED4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C23C7F213465EC00D1ED4C /* ViewController.swift */; };
+		29C23C80213465EC00D1ED4C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C23C7F213465EC00D1ED4C /* ListViewController.swift */; };
 		29C23C83213465EC00D1ED4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C23C81213465EC00D1ED4C /* Main.storyboard */; };
 		29C23C85213465EF00D1ED4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29C23C84213465EF00D1ED4C /* Assets.xcassets */; };
 		29C23C88213465EF00D1ED4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C23C86213465EF00D1ED4C /* LaunchScreen.storyboard */; };
+		29C23C9021387C7E00D1ED4C /* Stotra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C23C8F21387C7E00D1ED4C /* Stotra.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2930E8F6214AF4A600370D77 /* StotraData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StotraData.swift; sourceTree = "<group>"; };
+		2930E8FA214B1E9E00370D77 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		29C23C7A213465EC00D1ED4C /* Prarthna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prarthna.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C23C7D213465EC00D1ED4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		29C23C7F213465EC00D1ED4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29C23C7F213465EC00D1ED4C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		29C23C82213465EC00D1ED4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		29C23C84213465EF00D1ED4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29C23C87213465EF00D1ED4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29C23C89213465EF00D1ED4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C23C8F21387C7E00D1ED4C /* Stotra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stotra.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,49 @@
 		29C23C7C213465EC00D1ED4C /* Prarthna */ = {
 			isa = PBXGroup;
 			children = (
-				29C23C7D213465EC00D1ED4C /* AppDelegate.swift */,
-				29C23C7F213465EC00D1ED4C /* ViewController.swift */,
+				29C23C9421387CCA00D1ED4C /* Controller */,
+				29C23C9221387CAA00D1ED4C /* Model */,
+				29C23C9321387CBC00D1ED4C /* View */,
+				29C23C9521387CEC00D1ED4C /* Supporting Files */,
+			);
+			path = Prarthna;
+			sourceTree = "<group>";
+		};
+		29C23C9221387CAA00D1ED4C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				29C23C8F21387C7E00D1ED4C /* Stotra.swift */,
+				2930E8F6214AF4A600370D77 /* StotraData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		29C23C9321387CBC00D1ED4C /* View */ = {
+			isa = PBXGroup;
+			children = (
 				29C23C81213465EC00D1ED4C /* Main.storyboard */,
 				29C23C84213465EF00D1ED4C /* Assets.xcassets */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29C23C9421387CCA00D1ED4C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				29C23C7D213465EC00D1ED4C /* AppDelegate.swift */,
+				29C23C7F213465EC00D1ED4C /* ListViewController.swift */,
+				2930E8FA214B1E9E00370D77 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		29C23C9521387CEC00D1ED4C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				29C23C86213465EF00D1ED4C /* LaunchScreen.storyboard */,
 				29C23C89213465EF00D1ED4C /* Info.plist */,
 			);
-			path = Prarthna;
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +176,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29C23C80213465EC00D1ED4C /* ViewController.swift in Sources */,
+				29C23C9021387C7E00D1ED4C /* Stotra.swift in Sources */,
+				29C23C80213465EC00D1ED4C /* ListViewController.swift in Sources */,
+				2930E8FB214B1E9E00370D77 /* DetailViewController.swift in Sources */,
+				2930E8F7214AF4A600370D77 /* StotraData.swift in Sources */,
 				29C23C7E213465EC00D1ED4C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +326,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R2F6BR8J3J;
-				INFOPLIST_FILE = Prarthna/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Prarthna/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,7 +335,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinayasoni.Prarthna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,7 +345,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R2F6BR8J3J;
-				INFOPLIST_FILE = Prarthna/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Prarthna/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,7 +354,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.vinayasoni.Prarthna;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
