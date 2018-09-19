@@ -11,9 +11,9 @@ import Foundation
 class Stotra {
     
     let name: String
-    let content: String
+    let content: [String]
     
-    init(stotra: String, details: String) {
+    init(stotra: String, details: [String]) {
         
         name = stotra
         content = details

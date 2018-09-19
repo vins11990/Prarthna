@@ -14,9 +14,13 @@ class StotraData {
     
     init() {
         
-        list.append(Stotra(stotra: "Shree Krushnaashtakam", details: "Shree Krushnaay namaha"))
-        list.append(Stotra(stotra: "Shiva Mahimna Stotram", details: "Om Namah Shivaay"))
-        list.append(Stotra(stotra: "Madhuraashtakam", details: "abcd"))
+        list.append(Stotra(stotra: "Shree Krushnaashtakam", details: shreeKrushnashtakam))
+        list.append(Stotra(stotra: "Shiva Mahimna Stotram", details: shivMahimna))
+        list.append(Stotra(stotra: "Madhuraashtakam", details: madhurashtakam))
         
     }
 }
+
+let shreeKrushnashtakam = ["a","b","c"]
+let shivMahimna = ["a","b","c"]
+let madhurashtakam = ["a","b","c"]
