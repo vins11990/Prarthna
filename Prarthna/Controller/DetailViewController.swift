@@ -20,6 +20,8 @@ class DetailViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        tableView.register(UINib(nibName: "ShlokViewCell", bundle: nil), forCellReuseIdentifier: "ShlokViewCell")
+        
         
     }
 
@@ -32,9 +34,9 @@ class DetailViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ShlokCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ShlokViewCell", for: indexPath) as! ShlokViewCell
         
-        cell.textLabel?.text = allShlok[indexPath.row]
+        cell.shlokLabel.text = allShlok[indexPath.row]
         
         return cell
     }
@@ -50,6 +52,9 @@ class DetailViewController: UITableViewController {
         if let all = selected?.content {
             allShlok = all
         }
+        
+        tableView.rowHeight = UITableViewAutomaticDimension
+        tableView.estimatedRowHeight = 500.0
         
     }
 

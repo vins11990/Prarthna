@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2925632121569B7A007AC908 /* ShlokViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2925631F21569B7A007AC908 /* ShlokViewCell.swift */; };
+		2925632221569B7A007AC908 /* ShlokViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2925632021569B7A007AC908 /* ShlokViewCell.xib */; };
 		2930E8F7214AF4A600370D77 /* StotraData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930E8F6214AF4A600370D77 /* StotraData.swift */; };
 		2930E8FB214B1E9E00370D77 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2930E8FA214B1E9E00370D77 /* DetailViewController.swift */; };
 		29C23C7E213465EC00D1ED4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C23C7D213465EC00D1ED4C /* AppDelegate.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2925631F21569B7A007AC908 /* ShlokViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShlokViewCell.swift; sourceTree = "<group>"; };
+		2925632021569B7A007AC908 /* ShlokViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShlokViewCell.xib; sourceTree = "<group>"; };
 		2930E8F6214AF4A600370D77 /* StotraData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StotraData.swift; sourceTree = "<group>"; };
 		2930E8FA214B1E9E00370D77 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		29C23C7A213465EC00D1ED4C /* Prarthna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prarthna.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +86,8 @@
 			children = (
 				29C23C81213465EC00D1ED4C /* Main.storyboard */,
 				29C23C84213465EF00D1ED4C /* Assets.xcassets */,
+				2925631F21569B7A007AC908 /* ShlokViewCell.swift */,
+				2925632021569B7A007AC908 /* ShlokViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -165,6 +171,7 @@
 			files = (
 				29C23C88213465EF00D1ED4C /* LaunchScreen.storyboard in Resources */,
 				29C23C85213465EF00D1ED4C /* Assets.xcassets in Resources */,
+				2925632221569B7A007AC908 /* ShlokViewCell.xib in Resources */,
 				29C23C83213465EC00D1ED4C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +185,7 @@
 			files = (
 				29C23C9021387C7E00D1ED4C /* Stotra.swift in Sources */,
 				29C23C80213465EC00D1ED4C /* ListViewController.swift in Sources */,
+				2925632121569B7A007AC908 /* ShlokViewCell.swift in Sources */,
 				2930E8FB214B1E9E00370D77 /* DetailViewController.swift in Sources */,
 				2930E8F7214AF4A600370D77 /* StotraData.swift in Sources */,
 				29C23C7E213465EC00D1ED4C /* AppDelegate.swift in Sources */,

@@ -23,4 +23,4 @@ class StotraData {
 
 let shreeKrushnashtakam = ["a","b","c"]
 let shivMahimna = ["a","b","c"]
-let madhurashtakam = ["a","b","c"]
+let madhurashtakam = ["Adharam madhuram Vadanam madhuram Nayanam madhuram Hasitam madhuram|", "हृदयँ मधुरं गमनं मधुरं मधुराधि पतेरखिलं मधुरं||","c"]
